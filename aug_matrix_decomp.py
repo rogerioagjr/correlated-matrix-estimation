@@ -29,6 +29,8 @@ def pairwise_distances(x, y=None):
     Output: dist is a NxM matrix where dist[i,j] is the square norm between x[i,:] and y[j,:]
             if y is not given then use 'y=x'.
     i.e. dist[i,j] = ||x[i,:]-y[j,:]||^2
+
+    Extracted from: https://discuss.pytorch.org/t/efficient-distance-matrix-computation/9065/3
     '''
     x_norm = (x ** 2).sum(1).view(-1, 1)
     if y is not None:
