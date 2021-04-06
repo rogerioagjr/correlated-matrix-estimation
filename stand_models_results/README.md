@@ -1,1 +1,1 @@
-Directory for Standard Matirx Estimation models results
+Directory for Standard Matrix Estimation models results

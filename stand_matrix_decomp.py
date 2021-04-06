@@ -29,14 +29,14 @@ if __name__ == "__main__":
 
     # Define matrix size
     n_grid = 20
-    max_dims = 3
+    max_dims = 10
     n_crops = 20
 
     # Define training hyperparms
     epochs = 5000
     low = 0.1
     high = 0.9
-    n_regimes = 3
+    n_regimes = 9
 
     # Set manual seeds
     torch.manual_seed(42)

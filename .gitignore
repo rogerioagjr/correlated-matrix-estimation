@@ -2,6 +2,7 @@
 data/
 images/
 stand_models_results/
+aug_models_results/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
