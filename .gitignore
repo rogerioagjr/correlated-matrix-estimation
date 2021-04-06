@@ -1,6 +1,7 @@
 # Data / Images / Models
-data
-images
+data/
+images/
+stand_models_results/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

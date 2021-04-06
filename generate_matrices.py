@@ -35,15 +35,24 @@ def save_matrix_fig(matrix, n_grid, n_dim, n_crops, sigma):
 
 
 if __name__ == "__main__":
+    #######################################
+    ###   DEFINE EXECUTION PARAMETERS   ###
+    #######################################
+
     # Define matrix size
     n_grid = 20
     n_dims = 5
     n_crops = 20
+
     # Define matrix noise
     sigma = 0.25
+
     # Set manual seeds
     torch.manual_seed(42)
     np.random.seed(42)
+
+    #######################################
+    #######################################
 
     coords = get_coords(n_grid)
 
